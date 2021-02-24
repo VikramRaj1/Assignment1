@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>My Bio Data</h1>
+
+<body>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="firstname">FirstName</label>
+        <input type="text" name="firstname" id="firstname" placeholder="First Name">
+        <label for="lastname">LastName</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+        <br>
+        <br>
+        <form>
+
+            <label for="male">Male:</label>
+            <input type="radio" id="male" name="gender" value="male">
+
+            <label for="female">Female:</label>
+            <input type="radio" id="female" name="gender" value="female">
+
+            <label for="other">Other:</label>
+            <input type="radio" id="other" name="gender" value="other">
+        </form>
+        <br>
+        <label for="dateofbirth">Date Of Birth:</label>
+        <input type="date" name="dateofbirth" id="dateofbirth">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email">
+        <br>
+        <br>
+        <label for="phone">Phone</label>
+        <input type="phone" id="phone" maxlength="10" placeholder="+91">
+        <br>
+        <br><label for="height">Height</label>
+        <input type="number" name="height" id="height" placeholder="Height in Feet">
+
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>Education</legend>
+        <label for="schoolname">School Name:</label>
+        <input type="text" name="schoolname" id="schoolname" placeholder="School Name">
+        <br>
+        <br>
+        <label for="class">Class</label>
+        <input type="text" name="class" id="class" placeholder="Enter class">
+        <br>
+        <br>
+        <label for="stream">Stream:</label>
+        <select>
+            <option>Stream</option>
+            <option>MCA</option>
+            <option>Btech</option>
+            <option>Mtech</option>
+            <option>BCA</option>
+            <option>Msc</option>
+        </select>
+        <br>
+        <br>
+        <form action="/action_page.php">
+            <label for="marksheet">Marksheet:</label>
+            <input type="file" id="marksheet" name="marksheet">
+        </form>
+
+    </fieldset>
+    <br>
+    <input type="submit">
+</body>
+
+</html>
